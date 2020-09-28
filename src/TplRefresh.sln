@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Clarion 2.1.0.2447
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "TplRefresh", "TplRefresh.cwproj", "{EA5C29AC-C97A-49AD-B3D5-5A5D2DE554DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5C29AC-C97A-49AD-B3D5-5A5D2DE554DB}.Debug|Win32.Build.0 = Debug|Win32
+		{EA5C29AC-C97A-49AD-B3D5-5A5D2DE554DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA5C29AC-C97A-49AD-B3D5-5A5D2DE554DB}.Release|Win32.Build.0 = Release|Win32
+		{EA5C29AC-C97A-49AD-B3D5-5A5D2DE554DB}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+EndGlobal

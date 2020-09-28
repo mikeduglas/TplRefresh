@@ -1,0 +1,10 @@
+#! Refresh template dialog window.
+#! mikeduglas (c) 2020
+#! mikeduglas@yandex.ru, mikeduglas66@gmail.com
+#!
+#GROUP(%RefreshDialog, %pDialogTitle),AUTO
+#IF(FILEEXISTS('TplRefresh.exe'))
+  #RUN('TplRefresh.exe "'&%pDialogTitle&'"'),WAIT
+#ELSE
+  #ERROR('TplRefresh.exe not found.')
+#ENDIF
