@@ -39,7 +39,8 @@ hwndParent                    HWND, AUTO
 
         IF winChild.GetClassName() = 'ClaChildClient'
           !- redraw all controls
-          winChild.InvalidateRect(FALSE)
+!          winChild.InvalidateRect(FALSE)
+          winChild.InvalidateRect(TRUE)
           RETURN
         END
       
