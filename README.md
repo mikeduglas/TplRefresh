@@ -26,7 +26,7 @@ until you click on list rows.
 To fix this issue:
 
 1. Copy TplRefresh.exe to c:\Clarion11\accessory\bin folder.
-2. Copy TplRefresh.tpw to c:\Clarion11\accessory\template\win folder aand register it.
+2. Copy TplRefresh.tpw to c:\Clarion11\accessory\template\win folder and register it.
 3. Add this line to your template:
 ```
 #INCLUDE('TplRefresh.tpw')
@@ -45,3 +45,7 @@ So %GenerateNames function will look like this:
 #! Refresh dialog
 #CALL(%RefreshDialog, 'Test TplRefresh')
 ```
+and the listbox will be refreshed immediately.
+
+template\TestTplRefresh.tpl is a template sample to reproduce the issue and show how to fix it.
+
